@@ -1,3 +1,20 @@
+:root{
+  --main-color:#5CA5A5;
+  --white-color:#fff;
+--font-family: monospace;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
 /* GLOBAL */
 html{
   box-sizing: border-box;
@@ -21,6 +38,8 @@ body {
   font-family: "Arial" sans-serif;
   background-color: #fff;
   color: #222;
+  cursor:pointer;
+
 }
 img{
   max-width: 100%;
@@ -39,4 +58,139 @@ margin-right: auto;
 /* MAIN CONTENT */
 .main-content{
   flex-grow: 1;
+}
+/* HEADER */
+
+
+
+/* VAKANSIYA */
+.vakansiya-section {
+  margin-top: 50px;
+  padding: 30px;
+background-color:snow;
+}
+.vakansiya-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.vakansiya-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+max-width: 1150px;
+  background-color: var(--white-color);
+padding: 20px 30px;
+text-align: center;
+margin-bottom: 25px;
+border-left: 5px solid var(--main-color);
+
+
+}
+.bottom{
+  margin-bottom: 0;
+}
+.border-none{
+  border: none;
+}
+.accaunt-info {
+  display: flex;
+  align-items: center;
+
+}
+.accaunt-info-img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.accaunt-new-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+
+}
+.accaunt-jobs {
+  margin: 0;
+  padding: 0;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+color: var(--main-color);
+margin-right: 10px;
+font-family: var(--font-family);
+
+
+}
+.accaunt-new {
+font-size: 11px;
+line-height: 14px;
+color: var(--white-color);
+text-align: center;
+
+padding: 6px 12px;
+border-radius: 15px;
+background-color: var(--main-color);
+text-transform: uppercase;
+font-family: var(--font-family);
+margin-right: 6px;
+}
+.feuatured {
+  background-color: #222;
+}
+.accaunt-name {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222;
+font-weight: 700;
+  font-family: var(--font-family);
+  margin-bottom: 5px;
+  text-align: left;
+}
+.accaunt-oclock-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+.acaunt-oclock-list-item {
+padding: 0;
+margin: 0;
+margin-left: 25px;
+font-size: 15px;
+line-height: 24px;
+font-weight: 500;
+font-family: var(--font-family);
+text-align: center;
+color: #7C8F8F;
+
+
+}
+.list-style {
+  list-style: none;
+  margin: 0;
+
+}
+.accaunt-tehnologiyalari {
+  margin: 0;
+  padding: 0;
+}
+.accaunt-tehnologiyalari-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.accaunt-tehnologiyalari-list-item {
+  margin-left: 25px;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: var(--font-family);
+  padding: 5px 10px;
+  background-color: #f2f2f2;
 }
